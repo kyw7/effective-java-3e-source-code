@@ -1,5 +1,8 @@
 package effectivejava.chapter2.item2.hierarchicalbuilder;
 
+import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.Map;
 import java.util.Objects;
 
 // Subclass with hierarchical builder (Page 15)

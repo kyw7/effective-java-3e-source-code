@@ -12,5 +12,6 @@ public enum Elvis {
     public static void main(String[] args) {
         Elvis elvis = Elvis.INSTANCE;
         elvis.leaveTheBuilding();
+        int a = new point().x;
     }
 }

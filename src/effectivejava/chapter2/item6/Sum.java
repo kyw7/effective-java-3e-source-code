@@ -1,7 +1,5 @@
 package effectivejava.chapter2.item6;
 
-import java.util.Comparator;
-
 // Hideously slow program! Can you spot the object creation? (Page 24)
 public class Sum {
     private static long sum() {
@@ -12,7 +10,7 @@ public class Sum {
     }
 
     public static void main(String[] args) {
-        int numSets = Integer.parseInt(args[0]);
+        int numSets = Integer.parseInt("100");
         long x = 0;
 
         for (int i = 0; i < numSets; i++) {

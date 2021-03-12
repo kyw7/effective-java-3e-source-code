@@ -6,7 +6,7 @@ import java.util.*;
 // Note that the underlying "simulated self-type" idiom  allows for arbitrary fluid hierarchies, not just builders
 
 public abstract class Pizza {
-    public enum Topping { HAM, MUSHROOM, ONION, PEPPER, SAUSAGE }
+    public static enum Topping { HAM, MUSHROOM, ONION, PEPPER, SAUSAGE }
     final Set<Topping> toppings;
 
     abstract static class Builder<T extends Builder<T>> {
